@@ -5,7 +5,8 @@
     "dev": "iles dev --open",
     "build": "iles build",
     "preview": "iles preview --open --port 5050",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint --ext .ts,.js,.vue --fix ."
   },
   "lint-staged": {
     "*.{md,js,vue,ts}": [
