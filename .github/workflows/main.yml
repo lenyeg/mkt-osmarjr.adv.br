@@ -1,4 +1,4 @@
-name: CI
+name: LHCI
 on: [push]
 jobs:
   lhci:
