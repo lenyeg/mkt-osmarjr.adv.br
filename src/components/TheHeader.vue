@@ -2,11 +2,14 @@
   <div :class="$style.nav">Navbar</div>
 </template>
 
-<script>
-export default {
-  name: "TheHeader",
-};
+<script  lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'TheHeader'
+})
 </script>
+
 
 <style lang="postcss" module>
 .nav {

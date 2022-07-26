@@ -9,6 +9,6 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script lang="ts" setup>
+import TheHeader from "@/components/TheHeader.vue"
 </script>
