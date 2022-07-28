@@ -9,10 +9,7 @@
         </h1>
         <span>OAB/PR 103.959</span>
       </article>
-      <a href="" :class="$style.whatsCTA">
-        Contate-me agora!
-        <img src="images/icons/whatsapp-rounded.svg" alt="Contate-me agora!" />
-      </a>
+      <a href="" :class="$style.whatsCTA"> Contate-me agora! </a>
       <article :class="$style.about">
         <img src="images/osmar.png" alt="" />
         <p>
