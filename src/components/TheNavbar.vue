@@ -11,7 +11,7 @@
                   <span :class="$style.srOnly">Workflow</span>
                   <img
                     :class="$style.logo"
-                    src="images/icons/logo-dark.svg"
+                    src="@/icons/logo-dark.svg"
                     alt=""
                   />
                 </a>
@@ -54,7 +54,7 @@
                 <div>
                   <img
                     :class="$style.menuIconMobile"
-                    src="images/icons/logo-dark.svg"
+                    src="@/icons/logo-dark.svg"
                     alt=""
                   />
                 </div>
