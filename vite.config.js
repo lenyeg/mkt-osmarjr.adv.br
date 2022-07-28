@@ -7,7 +7,9 @@ export default defineConfig({
   vite: {
     plugins: [
       vue(),
-      ssr(),
+      ssr({
+        ssr: false,
+      }),
       WindiCSS({
         scan: {
           // By default only `src/` is scanned
