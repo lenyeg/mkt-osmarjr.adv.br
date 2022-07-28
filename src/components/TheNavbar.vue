@@ -9,7 +9,11 @@
               <div :class="$style.navContentLayerTwo">
                 <a href="#">
                   <span :class="$style.srOnly">Workflow</span>
-                  <img :class="$style.logo" src="svg/logo-dark.svg" alt="" />
+                  <img
+                    :class="$style.logo"
+                    src="images/icons/logo-dark.svg"
+                    alt=""
+                  />
                 </a>
                 <div :class="$style.buttonLayerOne">
                   <PopoverButton :class="$style.buttonLayerTwo">
@@ -50,7 +54,7 @@
                 <div>
                   <img
                     :class="$style.menuIconMobile"
-                    src="svg/logo-dark.svg"
+                    src="images/icons/logo-dark.svg"
                     alt=""
                   />
                 </div>

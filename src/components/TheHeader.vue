@@ -11,7 +11,7 @@
       </article>
       <a href="" :class="$style.whatsCTA">
         Contate-me agora!
-        <img src="svg/whatsapp-rounded.svg" alt="Contate-me agora!" />
+        <img src="images/icons/whatsapp-rounded.svg" alt="Contate-me agora!" />
       </a>
       <article :class="$style.about">
         <img src="images/osmar.png" alt="" />
