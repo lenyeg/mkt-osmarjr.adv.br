@@ -11,7 +11,7 @@
       </article>
       <a href="" :class="$style.whatsCTA"> Contate-me agora! </a>
       <article :class="$style.about">
-        <img src="images/osmar.png" alt="" />
+        <img src="images/landing/osmar.png" alt="" />
         <p>
           Formado na UNICESUMAR em 2019, aprovado no primeiro exame da ordem
           enquanto ainda quintanista, pós-graduado em Docência no Ensino
