@@ -1,10 +1,6 @@
 <template>
   <header :class="$style.headerSection">
-    <nav :class="$style.navbar">
-      <img src="svg/logo-dark.svg" alt="logo Osmar Júnior" />
-      <button @click="toggleMenu">abrir menu</button>
-    </nav>
-    <TheNavbar v-if="openMenu" />
+    <TheNavbar />
     <section>
       <article :class="$style.leading">
         <h1>
@@ -51,10 +47,14 @@ export default defineComponent({
 
 <style lang="postcss" module>
 .headerSection {
-  @apply flex flex-col text-gray-900;
+  @apply flex flex-col text-gray-900 relative;
 }
 .navbar {
-  @apply flex justify-between container m-auto p-2;
+  @apply flex justify-between container px-2 m-auto;
+}
+
+button {
+  @apply z-50 w-12 h-12;
 }
 
 .leading {
