@@ -37,6 +37,7 @@
     "vue-tsc": "^0.38"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.4",
     "@vitejs/plugin-vue": "^3.0.1",
     "vite": "^3.0.3",
     "vite-plugin-ssr": "^0.4.13",
