@@ -105,7 +105,7 @@ const navigation = [
 }
 
 .layerTwo {
-  @apply container mx-auto px-4 sm:px-6;
+  @apply mx-auto px-4 sm:px-6 lg:container;
 }
 
 .navbar {

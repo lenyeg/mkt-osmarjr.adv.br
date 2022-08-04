@@ -42,7 +42,7 @@ export default defineComponent({
   @apply flex flex-col text-white relative;
 }
 .navbar {
-  @apply flex justify-between container px-2 m-auto;
+  @apply flex justify-between lg:container px-2 m-auto;
 }
 
 button {
@@ -51,6 +51,10 @@ button {
 
 .content {
   @apply flex flex-col items-center gap-2 my-9 mx-4 text-center lg:flex-row lg:justify-between lg:text-left lg:container lg:mx-auto;
+}
+
+.content img {
+  @apply max-w-xs;
 }
 .leading {
   @apply flex flex-col items-center text-lg gap-2 my-9 mx-4 lg:items-start lg:max-w-md;
