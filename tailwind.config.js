@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: ["./src/**/*.{html,js,vue}"],
   theme: {
@@ -32,21 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    // https://github.com/tailwindlabs/tailwindcss-typography
-    require("@tailwindcss/typography"),
-    plugin(function ({ addBase, theme }) {
-      addBase({
-        "html.font-inter": {
-          fontFamily: ["Inter", theme("fontFamily.sans")].join(", "),
-        },
-        "body.no-scroll": {
-          overflow: "hidden",
-        },
-        html: {
-          scrollBehavior: "smooth",
-        },
-      });
-    }),
-  ],
+  plugins: [],
 };
