@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     Island: typeof import('./node_modules/.pnpm/iles@0.8.2/node_modules/iles/dist/client/app/components/Island.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TheCustomers: typeof import('./src/components/TheCustomers.vue')['default']
     TheFooter: typeof import('./src/components/TheFooter.vue')['default']
     TheHeader: typeof import('./src/components/TheHeader.vue')['default']
     TheLocalization: typeof import('./src/components/TheLocalization.vue')['default']

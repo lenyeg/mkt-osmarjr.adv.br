@@ -8,7 +8,7 @@
     <TheNavbar client:visible />
     <TheHeader />
     <TheOccupation client:visible />
-    <Customers />
+    <TheCustomers />
     <TheLocalization />
     <TheFooter />
   </div>
