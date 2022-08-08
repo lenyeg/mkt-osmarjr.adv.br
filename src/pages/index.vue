@@ -5,9 +5,10 @@
 
 <template>
   <div :class="$style.section">
-    <TheNavbar />
+    <TheNavbar client:visible />
     <TheHeader />
-    <TheOccupation />
+    <TheOccupation client:visible />
+    <Customers />
     <TheLocalization />
     <TheFooter />
   </div>

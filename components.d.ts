@@ -7,6 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Customers: typeof import('./src/components/Customers.vue')['default']
+    Island: typeof import('./node_modules/.pnpm/iles@0.8.2/node_modules/iles/dist/client/app/components/Island.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheFooter: typeof import('./src/components/TheFooter.vue')['default']

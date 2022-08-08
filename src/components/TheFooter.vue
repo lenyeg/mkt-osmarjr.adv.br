@@ -40,7 +40,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-export default defineComponent({});
+export default defineComponent({}); 
 </script>
 
 <style lang="postcss" module>
@@ -63,7 +63,7 @@ span {
   @apply block lg:inline;
 }
 .logoSection {
-  @apply w-full flex justify-around gap-72 lg:gap-0 items-center py-6 border lg:p-0;
+  @apply w-full flex justify-around gap-32 lg:gap-0 items-center py-6 border lg:p-0;
 }
 
 .iconOne {
