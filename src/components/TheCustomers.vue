@@ -47,14 +47,14 @@
   @apply bg-gray-50 w-full;
 }
 .mainContent {
-  @apply bg-gray-50 text-gray-800 py-16 flex flex-col justify-center items-center lg:container lg:m-auto;
+  @apply bg-gray-50 text-gray-800 py-16 flex flex-col justify-center items-center xl:container xl:m-auto;
 }
 
 .title {
   @apply text-center text-3xl font-extrabold text-gray-900 sm:text-4xl;
 }
 .container {
-  @apply flex overflow-x-scroll snap-mandatory max-w-[22.5rem] lg:max-w-full;
+  @apply flex lg:justify-center overflow-x-scroll snap-mandatory w-full;
 }
 
 .card {
