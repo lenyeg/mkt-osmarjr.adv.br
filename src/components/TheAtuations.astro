@@ -2,7 +2,7 @@
 import { Icon } from 'astro-icon'
 ---
 
-<div class="flex flex-col lg:flex-row container mx-auto mt-16 justify-center">
+<div class="flex flex-col lg:flex-row container mx-auto mt-16 justify-center items-start">
   <section class="flex flex-col justify-center items-center lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start">
     <h2 class="font-bold font-serif text-4xl lg:hidden">Áreas de atuação</h2>
     <img src="law-statue.png" class="w-full" alt="Estatua da lei">
@@ -184,6 +184,205 @@ import { Icon } from 'astro-icon'
                   <p class="text-base text-gray-500 w-11/12">
 
                     Sustentação Oral;
+                  </p>
+                </dd>
+              </details>
+              <details class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400">
+                <!-- Expand/collapse question button -->
+                <summary class="group lg:min-w-[600px] font-medium text-gray-900 h-7 flex items-center justify-between">
+                  Execução Penal <svg class="group-open:open:rotate-180 rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+                    Saída Temporária;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Progressão de Regime;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Prisão Domiciliar;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Remição;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Detração;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Indulto;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Comutação;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Livramento Condicional;
+                  </p>
+                </dd>
+              </details>
+              <details class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400">
+                <!-- Expand/collapse question button -->
+                <summary class="group lg:min-w-[600px] font-medium text-gray-900 h-7 flex items-center justify-between">
+                  Áreas Específicas <svg class="group-open:open:rotate-180 rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+                    Crimes de Lavagem de Capitais;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes Empresariais/Corporativos;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+                    Crimes contra a Ordem Econômica e Tributária;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes de Sonegação Fiscal;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra as Relações de Consumo;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes de Responsabilidade de Agentes Públicos;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Direito Penal Médico;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra a Administração da Justiça;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra o Patrimônio;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra a Organização do Trabalho;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra a Vida (Tribunal do Júri);
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes de Estelionato;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes contra a Honra;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes Ambientais;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Crimes de trânsito;
+                  </p>
+                </dd>
+                <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <Icon name="check-shild" class="w-4 h-4" />
+                  <p class="text-base text-gray-500 w-11/12">
+
+                    Ações Penais Originárias;
                   </p>
                 </dd>
               </details>
