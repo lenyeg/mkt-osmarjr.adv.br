@@ -1,0 +1,128 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<div class="relative bg-gray-500 overflow-hidden">
+
+  <div class="relative pt-6 pb-24 md:pb-16">
+    <div>
+      <div class="max-w-7xl mx-auto px-6 md:px-4">
+        <nav class="relative flex items-center justify-between h-10 md:justify-center" aria-label="Global">
+          <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a href="#">
+                <span class="sr-only">Workflow</span>
+                <Icon name="logo-colorful" class="w-auto h-10" />
+              </a>
+              <div class="-mr-2 flex items-center md:hidden">
+                <button type="button"
+                  class="bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+                  aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <!-- Heroicon name: outline/menu -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden lg:absolute lg:right-44 md:flex md:space-x-10">
+            <a href="#" class="font-medium duration-300 text-white hover:text-primary-500">Áreas de Atuação</a>
+
+            <a href="#" class="font-medium duration-300 text-white hover:text-primary-500">Depoimentos</a>
+
+            <a href="#" class="font-medium duration-300 text-white hover:text-primary-500">Onde me Encontrar</a>
+
+          </div>
+          <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+            <span class="inline-flex rounded-full shadow">
+              <a href="#"
+                class="group inline-flex items-center px-4 py-2 gap-2 border border-transparent text-base font-medium rounded-full duration-300 text-white bg-gray-700 hover:bg-primary-500 hover:text-gray-700">
+                <Icon name="whatsapp" class="h-6 w-6 duration-300 group-hover:text-gray-700" />
+                Atendimento
+              </a>
+            </span>
+          </div>
+        </nav>
+      </div>
+
+      <!--
+        Mobile menu, show/hide based on menu open state.
+
+        Entering: "duration-150 ease-out"
+          From: "opacity-0 scale-95"
+          To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+          From: "opacity-100 scale-100"
+          To: "opacity-0 scale-95"
+      -->
+      <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <div class="rounded-lg shadow-md ring-1 ring-black ring-opacity-5 bg-gray-500 overflow-hidden">
+          <div class="px-5 pt-4 flex items-center justify-between">
+            <div>
+              <Icon name="logo-colorful" class="h-8 w-auto" />
+            </div>
+            <div class="-mr-2">
+              <button type="button"
+                class="bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+                <span class="sr-only">Close menu</span>
+                <!-- Heroicon name: outline/x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="px-2 pt-2 pb-3">
+            <a href="#" class="block px-3 py-2 rounded-md text-base duration-300 text-white hover:text-primary-500">Área
+              de Atuação</a>
+
+            <a href="#"
+              class="block px-3 py-2 rounded-md text-base duration-300 text-white hover:text-primary-500">Depoimentos</a>
+
+            <a href="#" class="block px-3 py-2 rounded-md text-base duration-300 text-white hover:text-primary-500">Onde
+              me Encontrar</a>
+          </div>
+          <a href="#"
+            class="block w-full px-5 py-3 text-center duration-300 text-gray-600 bg-white hover:bg-primary-500">
+            Contate-me agora!
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main class="mx-auto max-w-7xl px-4 mt-24 flex flex-col lg:flex-row md:mt-16">
+      <div class="text-center lg:text-left flex flex-col justify-center items-center gap-4 lg:items-start lg:gap-1">
+        <h1 class="tracking-tight font-extrabold text-white text-5xl md:text-6xl lg:text-4xl">
+          <span class="block xl:inline">Osmar Júnior</span>
+          <span class="block xl:inline"> Advogado</span>
+        </h1>
+        <span
+          class="mt-3 max-w-md mx-auto text-gray-100 font-medium text-lg md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:mx-0">
+          OAB/PR
+          103.959
+        </span>
+        <p
+          class="mt-3 max-w-md mx-auto text-gray-100 text-lg md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:w-2/3 lg:mx-0">
+          Formado na
+          UNICESUMAR em 2019, aprovado no primeiro exame da ordem enquanto ainda quintanista, pós-graduado em Docência
+          no Ensino Superior pela FCV e pós-graduando em Prática Penal Avançada pela Damásio.</p>
+        <div class="mt-5 max-w-md mx-auto flex flex-col justify-center md:mt-8 lg:mx-0">
+          <div>
+            <a href="#"
+              class="group w-10/12 m-auto flex items-center justify-center gap-2 p-1 pl-2 border border-transparent text-base font-medium rounded-full shadow duration-300 text-gray-500 bg-white hover:bg-primary-500 md:w-full">
+              Contate-me agora!
+              <Icon name="whatsapp-rounded" class="h-8 w-8 text-gray-50 duration-300 group-hover:text-primary-600" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="osmar.png" class="my-10" alt="Osmar Júnior">
+      </div>
+    </main>
+  </div>
+</div>
