@@ -9,14 +9,25 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "lint-staged": {
+    "*.{astro,md,js,vue,ts}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
     "astro": "^1.0.1",
     "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.5.0"
+    "prettier-plugin-astro": "^0.5.0",
+    "vue-eslint-parser": "^9.0.3"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/vue": "^1.0.0",
+    "@headlessui/vue": "^1.6.7",
+    "@heroicons/vue": "^1.0.6",
     "astro-icon": "^0.7.3",
-    "vite": "^3.0.5"
+    "vite": "^3.0.5",
+    "vue": "^3.2.37"
   }
 }
