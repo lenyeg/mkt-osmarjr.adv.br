@@ -1,6 +1,7 @@
 <template>
   <div
     class="flex flex-col lg:flex-row container mx-auto mt-16 justify-start items-start"
+    id="atuations"
   >
     <section
       class="flex flex-col justify-center items-center w-full lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start"
@@ -38,7 +39,7 @@
             >
               <dl class="space-y-6 divide-y divide-gray-200">
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -68,7 +69,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -78,7 +79,7 @@
                       apreensão;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -87,7 +88,7 @@
                       Acompanhamentos em oitivas;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -96,7 +97,7 @@
                       Defesa/investigação preliminar;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -105,7 +106,7 @@
                       Oferecimento de Notitia Criminis;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -114,7 +115,7 @@
                       Pedido de Instauração de Inquérito Policial;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -123,7 +124,7 @@
                       Registro de Ocorrência Policial;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -134,7 +135,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -164,7 +165,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -173,7 +174,7 @@
                       Audiência de instrução e julgamento;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -182,7 +183,7 @@
                       Resposta à Acusação;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -191,7 +192,7 @@
                       Defesas Processuais;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -200,7 +201,7 @@
                       Impetração de Mandado de Segurança e Habeas Corpus;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -211,7 +212,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -241,14 +242,14 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Agravos;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -257,14 +258,14 @@
                       Recurso em Sentido Estrito;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Apelação;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -273,7 +274,7 @@
                       Recurso Especial e Extraordinário;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -284,7 +285,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -314,7 +315,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -323,7 +324,7 @@
                       Saída Temporária;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -332,7 +333,7 @@
                       Progressão de Regime;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -341,35 +342,35 @@
                       Prisão Domiciliar;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Remição;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Detração;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Indulto;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Comutação;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -380,7 +381,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -410,7 +411,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -419,7 +420,7 @@
                       Crimes de Lavagem de Capitais;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -428,7 +429,7 @@
                       Crimes Empresariais/Corporativos;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -437,7 +438,7 @@
                       Crimes contra a Ordem Econômica e Tributária;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -446,7 +447,7 @@
                       Crimes de Sonegação Fiscal;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -455,7 +456,7 @@
                       Crimes contra as Relações de Consumo;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -464,7 +465,7 @@
                       Crimes de Responsabilidade de Agentes Públicos;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -473,7 +474,7 @@
                       Direito Penal Médico;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -482,7 +483,7 @@
                       Crimes contra a Administração da Justiça;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -491,7 +492,7 @@
                       Crimes contra o Patrimônio;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -500,7 +501,7 @@
                       Crimes contra a Organização do Trabalho;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -509,7 +510,7 @@
                       Crimes contra a Vida (Tribunal do Júri);
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -518,7 +519,7 @@
                       Crimes de Estelionato;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -527,7 +528,7 @@
                       Crimes contra a Honra;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -536,7 +537,7 @@
                       Crimes Ambientais;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -545,7 +546,7 @@
                       Crimes de trânsito;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -567,7 +568,7 @@
             >
               <dl class="space-y-6 divide-y divide-gray-200">
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -597,28 +598,28 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Fixação;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Revisão;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Execução;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -627,7 +628,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -657,28 +658,28 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Litigioso;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Consensual;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -689,7 +690,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -719,14 +720,14 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Unilateral;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -735,7 +736,7 @@
                       Compartilhada;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -744,7 +745,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -774,7 +775,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -783,7 +784,7 @@
                       Regime de Bens;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -792,7 +793,7 @@
                       Aspectos Patrimoniais;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -801,7 +802,7 @@
                       Direitos e Deveres dos Cônjuges;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -810,7 +811,7 @@
                       Acordo Pré-nupcial;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -821,7 +822,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -851,7 +852,7 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -860,14 +861,14 @@
                       Reconhecimento;
                     </p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Dissolução;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
@@ -878,7 +879,7 @@
                   </dd>
                 </details>
                 <details
-                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400"
+                  class="pt-6 text-lg text-left w-full flex justify-between items-start text-gray-400 cursor-pointer"
                 >
                   <!-- Expand/collapse question button -->
                   <summary
@@ -908,14 +909,14 @@
 
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
                     />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
-                  <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
+                  <dd class="mt-2 pr-12 flex gap-2 items-center">
                     <img
                       src="/images/check-shild.svg"
                       class="w-[18px] h-[18px]"
