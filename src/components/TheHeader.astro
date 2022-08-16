@@ -15,7 +15,7 @@ import { Icon } from 'astro-icon'
                 <Icon name="logo-colorful" class="w-auto h-10" />
               </a>
               <div class="-mr-2 flex items-center md:hidden">
-                <button type="button"
+                <button type="button" onclick="toggleMenu()"
                   class="bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
                   aria-expanded="false" onclick="toggleNavigation()">
                   <span class="sr-only">Open main menu</span>
@@ -61,16 +61,16 @@ import { Icon } from 'astro-icon'
           From: "opacity-100 scale-100"
           To: "opacity-0 scale-95"
       -->
-      <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden navegation">
+      <div class="menu absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden navegation">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-gray-500 overflow-hidden">
           <div class="px-5 pt-4 flex items-center justify-between">
             <div>
               <Icon name="logo-colorful" class="h-8 w-auto" />
             </div>
             <div class="-mr-2">
-              <button type="button"
+              <button aria-label="Toggle Menu"
                 class="bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
-                onclick="toggleNavigation()">
+                onclick="toggleMenu()">
                 <span class="sr-only">Close menu</span>
                 <!-- Heroicon name: outline/x -->
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -133,11 +133,9 @@ import { Icon } from 'astro-icon'
   </div>
 </div>
 
-<script>
-  const toggleNavigation = () => {
-    let menu = document.querySelector('#navegation').classList.toggle('hidden')
-    return menu
+<script is:inline>
+  function toggleMenu() {
+    document.getElementByClassName("menu").classList.toggle("hidden");
   }
-
-  toggleNavigation()
+  window.toggleMenu = toggleMenu;
 </script>
