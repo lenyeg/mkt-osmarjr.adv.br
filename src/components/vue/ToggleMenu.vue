@@ -12,7 +12,7 @@
             <span class="sr-only">Osmar Júnior - Advogado</span>
             <img
               class="h-8 w-auto sm:h-10"
-              src="logo-colorful.svg"
+              src="logoHorizontal.png"
               alt="Osmar Júnior - Advogado"
             />
           </a>
@@ -79,7 +79,7 @@
               <div>
                 <img
                   class="h-8 w-auto sm:h-10"
-                  src="logo-colorful.svg"
+                  src="logoHorizontal.png"
                   alt=""
                 />
               </div>
