@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row container mx-auto mt-16 justify-center items-start"
+    class="flex flex-col lg:flex-row container mx-auto mt-16 justify-start items-start"
   >
     <section
       class="flex flex-col justify-center items-center w-full lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start"
@@ -8,14 +8,14 @@
       <h2 class="font-bold font-serif text-4xl lg:hidden">Áreas de atuação</h2>
       <img src="law-statue.png" class="w-full" alt="Estatua da lei" />
     </section>
-    <section>
+    <section class="mx-auto w-11/12">
       <h2
         class="hidden text-center font-extrabold text-gray-900 font-serif my-4 text-4xl lg:block"
       >
         Áreas de Atuação
       </h2>
       <div
-        class="flex rounded-md overflow-hidden w-full h-16 max-w-xl lg:w-11/12 lg:h-14 m-auto"
+        class="flex rounded-md overflow-hidden h-16 lg:max-w-xl :w-11/12 lg:h-14 m-auto"
       >
         <button
           @click="makeActive('criminal')"
@@ -30,7 +30,7 @@
           Direito de Família
         </button>
       </div>
-      <div class="w-full max-w-7xl">
+      <div class="w-11/12 m-auto max-w-7xl">
         <div v-show="isActiveTab('criminal')" class="bg-white">
           <div class="w-full max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             <div
@@ -665,15 +665,24 @@
                     <p class="text-base text-gray-500 w-11/12">Litigioso;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Consensual;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Extrajudicial (Cartório);
                     </p>
@@ -711,17 +720,26 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Unilateral;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Compartilhada;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Alternada;</p>
                   </dd>
                 </details>
@@ -757,31 +775,46 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Regime de Bens;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Aspectos Patrimoniais;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Direitos e Deveres dos Cônjuges;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Acordo Pré-nupcial;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Anulação de Casamento;
                     </p>
@@ -819,17 +852,26 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Reconhecimento;
                     </p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Dissolução;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Investigação da Identidade Biológica;
                     </p>
@@ -867,11 +909,17 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
                   <dd class="mt-2 pr-12 flex gap-2 items-center" id="faq-0">
-                    <Icon name="check-shild" class="w-4 h-4" />
+                    <img
+                      src="/images/check-shild.svg"
+                      class="w-[18px] h-[18px]"
+                    />
                     <p class="text-base text-gray-500 w-11/12">
                       Extrajudicial;
                     </p>
