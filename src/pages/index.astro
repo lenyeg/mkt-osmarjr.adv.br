@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 import TheHeader from '../components/TheHeader.astro';
 import TheAtuations from '../components/TheAtuations.astro';
+import TabNavegation from '../components/vue/TabNavegation.vue'
 import TheCostumers from '../components/TheCostumers.astro';
 import TheLocalization from '../components/TheLocalization.astro'
 import TheFooter from '../components/TheFooter.astro';
@@ -11,7 +12,7 @@ import TheFooter from '../components/TheFooter.astro';
 <Layout title="Osmar Júnior - Advogado">
 	<main>
 		<TheHeader />
-		<TheAtuations />
+		<TabNavegation client:only="vue" />
 		<TheCostumers />
 		<TheLocalization />
 		<TheFooter />

@@ -2,38 +2,6 @@
 import { Icon } from 'astro-icon'
 ---
 
-<script>
-  function TabNavigation() {
-    const html = {
-      links: document.querySelector('#tab-links'),
-      content: document.querySelector('#tab-content')
-    }
-    function hiddeAllTabContent() {
-      const contents = [...html.content.children]
-      contents.forEach(div => {
-        // div.style.display = 'none'
-      })
-    }
-
-    function removeAllActiveClass() { }
-
-    function showCurrentTab() { }
-
-    function listenForChanges() { }
-
-    function init() {
-      hiddeAllTabContent()
-      listenForChanges()
-    }
-  }
-
-  window.addEventListener('Load', () => {
-    const tabNavigation = TabNavigation()
-    // tabNavigation.init()
-  })
-
-</script>
-
 <div id="atuations" class="flex flex-col lg:flex-row container mx-auto mt-16 justify-center items-start">
   <section class="flex flex-col justify-center items-center w-full lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start">
     <h2 class="font-bold font-serif text-4xl lg:hidden">Áreas de atuação</h2>
