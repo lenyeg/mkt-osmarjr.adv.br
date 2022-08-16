@@ -6,7 +6,7 @@
       class="flex flex-col justify-center items-center w-full lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start"
     >
       <h2 class="font-bold font-serif text-4xl lg:hidden">Áreas de atuação</h2>
-      <img src="law-statue.png" class="w-full" alt="Estatua da lei" />
+      <img src="images/law-statue.png" class="w-full" alt="Estatua da lei" />
     </section>
     <section class="mx-auto w-11/12">
       <h2
