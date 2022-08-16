@@ -15,7 +15,7 @@
         Áreas de Atuação
       </h2>
       <div
-        class="flex rounded-md overflow-hidden h-16 lg:max-w-xl :w-11/12 lg:h-14 m-auto"
+        class="flex rounded-md overflow-hidden h-16 lg:w-9/12 lg:h-14 m-auto"
       >
         <button
           @click="makeActive('criminal')"
