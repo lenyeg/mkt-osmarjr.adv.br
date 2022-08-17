@@ -6,12 +6,18 @@
     <section
       class="flex flex-col justify-center items-center w-full lg:w-1/2 py-16 lg:p-0 gap-8 lg:justify-start"
     >
-      <h2 class="font-bold font-serif text-4xl lg:hidden">Áreas de atuação</h2>
+      <h2
+        class="text-gray-500 font-bold text-4xl lg:hidden"
+        style="font-family: 'Playfair Display', serif"
+      >
+        Áreas de atuação
+      </h2>
       <img src="/images/law-statue.png" class="w-full" alt="Estatua da lei" />
     </section>
     <section class="mx-auto w-11/12 lg:w-1/2">
       <h2
-        class="hidden text-center font-extrabold text-gray-900 font-serif my-4 text-4xl lg:block"
+        class="hidden font-extrabold text-gray-500 my-4 text-4xl px-8 lg:block"
+        style="font-family: 'Playfair Display', serif"
       >
         Áreas de Atuação
       </h2>
