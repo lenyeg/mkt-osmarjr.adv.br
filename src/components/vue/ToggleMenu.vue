@@ -6,12 +6,12 @@
         aria-label="Global"
       >
         <div
-          class="flex w-full flex-1 items-center justify-between lg:w-auto lg:flex-none"
+          class="flex w-full flex-1 items-center justify-between lg:w-auto h-12 lg:h-14 lg:flex-none"
         >
           <a href="/">
             <span class="sr-only">Osmar Júnior - Advogado</span>
             <img
-              class="h-8 w-auto sm:h-10"
+              class="h-12 lg:h-14 w-auto"
               src="/images/logoHorizontal.png"
               alt="Osmar Júnior - Advogado"
             />
@@ -78,7 +78,7 @@
             <div class="flex items-center justify-between px-5 pt-4">
               <div>
                 <img
-                  class="h-8 w-auto sm:h-10"
+                  class="h-12 w-auto"
                   src="/images/logoHorizontal.png"
                   alt=""
                 />
