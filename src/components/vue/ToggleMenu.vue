@@ -2,7 +2,7 @@
   <Popover id="popover">
     <div class="px-4 sm:px-6 bg-gray-500">
       <nav
-        class="relative flex items-center justify-between gap-6 sm:h-10"
+        class="relative flex items-center justify-between gap-6 sm:h-10 lg:container lg:m-auto"
         aria-label="Global"
       >
         <div
@@ -41,7 +41,7 @@
           :key="item.name"
           :href="item.href"
           target="_blank"
-          class="hidden lg:flex items-center gap-2 rounded-full bg-gray-700 px-[28.5px] py-[10px] font-medium text-white transition-all duration-200 hover:text-gray-500 hover:bg-primary-500 hover:ring-primary-500 focus:bg-primary-600 focus:text-gray-600 focus:ring-primary-700"
+          class="hidden lg:flex items-center gap-[10px] rounded-full bg-gray-700 px-[22px] py-[14px] font-medium text-white transition-all duration-200 hover:text-gray-500 hover:bg-primary-500 hover:ring-primary-500 focus:bg-primary-600 focus:text-gray-600 focus:ring-primary-700"
         >
           <svg
             width="20"
