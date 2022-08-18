@@ -1,12 +1,12 @@
 <template>
   <Popover id="popover">
-    <div class="px-4 sm:px-6 bg-gray-500">
+    <div class="bg-gray-500 px-4 sm:px-0">
       <nav
-        class="relative flex items-center justify-between gap-6 sm:h-10 lg:container lg:m-auto"
+        class="relative flex items-center justify-between gap-6 sm:h-10"
         aria-label="Global"
       >
         <div
-          class="flex w-full flex-1 items-center justify-between lg:w-auto h-12 lg:h-14 lg:flex-none"
+          class="flex flex-1 items-center justify-between w-full lg:w-auto h-12 lg:h-14 lg:flex-none"
         >
           <a href="/">
             <span class="sr-only">Osmar Júnior - Advogado</span>
@@ -32,7 +32,7 @@
             v-for="item in navigation.slice(0, navigation.length - 1)"
             :key="item.name"
             :href="item.href"
-            class="relative origin-center font-medium text-white transition-colors duration-300 hover:text-primary-500"
+            class="relative origin-center font-medium text-white transition duration-300 overflow-hidden before:content-[''] before:absolute before:bottom-0 before:w-full before:origin-center before:scale-x-0 before:hover:scale-x-100 before:h-[2px] before:bg-primary-500 hover:before: before:duration-300"
             >{{ item.name }}</a
           >
         </div>
