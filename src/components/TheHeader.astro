@@ -3,11 +3,11 @@ import { Icon } from "astro-icon";
 import ToggleMenu from "./vue/ToggleMenu.vue";
 ---
 
-<div class="relative bg-gray-500">
-  <div class="relative pt-6 pb-24 md:pb-16">
+<div class="bg-gray-500">
+  <div class="pt-6 pb-24 md:pb-16 container mx-auto">
     <ToggleMenu client:only="vue" />
-    <main
-      class="mx-auto max-w-7xl px-4 mt-24 flex flex-col lg:flex-row md:mt-16"
+    <section
+      class="flex flex-col justify-between px-4 lg:flex-row mt-24 lg:px-0 lg:mt-16"
     >
       <div
         class="text-center lg:text-left flex flex-col justify-center items-center gap-4 lg:items-start lg:gap-1"
@@ -52,6 +52,6 @@ import ToggleMenu from "./vue/ToggleMenu.vue";
       <div class="flex justify-center items-center">
         <img src="osmar.png" class="my-10" alt="Osmar Júnior" />
       </div>
-    </main>
+    </section>
   </div>
 </div>
