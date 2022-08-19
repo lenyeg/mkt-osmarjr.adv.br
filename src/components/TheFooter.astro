@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<footer class="bg-gray-500">
+  <div
+    class="relative flex flex-col justify-between items-center text-gray-100 py-6 text-center container m-auto lg:h-28"
+  >
+    <div>
+      <ul class="flex justify-around list-none p-0 lg:justify-center lg:gap-6">
+        <li>
+          <a href="https://www.facebook.com/advosmarjr/" target="_blank">
+            <Icon name="facebook" class="w-6 h-6" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/advosmarjr/" target="_blank">
+            <Icon name="instagram" class="w-6 h-6" />
+          </a>
+        </li>
+      </ul>
+      <span class="text-lg">
+        © 2022 Osmar Júnior Advogado.
+        <span class="block lg:inline">Todos os direitos reservados.</span>
+      </span>
+    </div>
+    <div
+      class="bg-gray-500 w-10/12 mt-4 h-full flex justify-around gap-32 lg:gap-0 items-center py-6 border-t lg:border-0 lg:p-0"
+    >
+      <a href="/" class="lg:absolute lg:left-0 lg:top-8"
+        ><Icon
+          name="logo-colorful"
+          alt="Osmar Júnior Advogado"
+          class="h-12 w-auto"
+        />
+      </a>
+      <a href="https://lenyeg.com.br" class="lg:absolute lg:right-0 lg:top-8"
+        ><Icon name="lenyeg" alt="Osmar Júnior Advogado" class="h-12 w-auto" />
+      </a>
+    </div>
+  </div>
+</footer>

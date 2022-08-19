@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import TheHeader from "../components/TheHeader.astro";
+import TabNavegation from "../components/vue/TabNavegation.vue";
+import TheCostumers from "../components/TheCostumers.astro";
+import TheLocalization from "../components/TheLocalization.astro";
+import TheFooter from "../components/TheFooter.astro";
+---
+
+<Layout title="Osmar Júnior - Advogado">
+	<main>
+		<TheHeader />
+		<TabNavegation client:only="vue" />
+		<TheCostumers />
+		<TheLocalization />
+		<TheFooter />
+	</main>
+</Layout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+		scroll-behavior: smooth;
+		font-family: "Montserrat", sans-serif;
+	}
+</style>

@@ -1,0 +1,45 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<div id="localization" class="bg-center bg-[url(/map.png)] bg-cover">
+  <div class="w-full h-96 relative container m-auto">
+    <div
+      class="absolute top-[7%] left-[25%] md:left-[37%] lg:left-[45%] xl:top-[6%] xl:left-[46%] 2xl:top-0"
+    >
+      <div
+        class="relative group flex flex-col justify-center items-center gap-2 lg:h-48"
+      >
+        <a
+          href="https://goo.gl/maps/8NfRNToSVs65bHso9"
+          target="_blank"
+          class="lg:absolute -top-6 -left-14 -right-14 bg-gray-500 text-white p-4 rounded-lg underline duration-300 lg:hidden lg:group-hover:block"
+          >Abrir no Google Maps
+        </a>
+        <Icon
+          name="location-pin"
+          alt="Abrir no google maps"
+          class="w-24 h-24 cursor-pointer"
+        />
+      </div>
+    </div>
+    <address
+      class="not-italic absolute bottom-4 left-4 right-4 bg-white flex flex-col rounded-lg border border-solid border-gray-100 shadow-md lg:top-6 lg:left-0 lg:bottom-auto lg:max-w-[340px] lg:right-auto"
+    >
+      <div class="p-2 flex items-center gap-2">
+        <Icon name="address" alt="" class="w-5 h-5" /> Av. João Paulino Vieira Filho,
+        262 (sala 4) - Maringá (PR)
+      </div>
+      <a
+        href="https://wa.me/5544991245630?text=ol%C3%A1,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20ser%20atendido"
+        target="_blank"
+        class="p-2 border-y border-x-0 border-solid border-gray-100 flex items-center gap-2"
+      >
+        <Icon name="tel" alt="" class="w-4 h-4" /> (44) 9 9931-5489
+      </a>
+      <div class="p-2 flex items-center gap-2">
+        <Icon name="email" alt="" class="w-4 h-4" /> contato@osmarjr.adv.br
+      </div>
+    </address>
+  </div>
+</div>
