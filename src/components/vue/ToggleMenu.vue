@@ -1,32 +1,32 @@
 <template>
   <Popover id="popover">
-    <div class="bg-gray-500 px-4 sm:px-0">
+    <div class="px-4 bg-gray-500 sm:px-0">
       <nav
         class="relative flex items-center justify-between gap-6 sm:h-10"
         aria-label="Global"
       >
         <div
-          class="flex flex-1 items-center justify-between w-full lg:w-auto h-12 lg:h-14 lg:flex-none"
+          class="flex items-center justify-between flex-1 w-full h-12 lg:w-auto lg:h-14 lg:flex-none"
         >
           <a href="/">
             <span class="sr-only">Osmar Júnior - Advogado</span>
             <img
-              class="h-12 lg:h-14 w-auto"
-              src="/images/logoHorizontal.png"
+              class="w-auto h-12 lg:h-14"
+              src="/images/logo-horizontal.svg"
               alt="Osmar Júnior - Advogado"
             />
           </a>
-          <div class="ml-auto flex items-center lg:hidden">
+          <div class="flex items-center ml-auto lg:hidden">
             <PopoverButton
-              class="inline-flex items-center justify-center rounded-md bg-gray-600 p-2 text-white transition-all hover:text-primary-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-600"
+              class="inline-flex items-center justify-center p-2 text-white transition-all bg-gray-600 rounded-md hover:text-primary-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-600"
             >
               <span class="sr-only">Abrir menu principal</span>
-              <MenuIcon class="h-6 w-6" aria-hidden="true" />
+              <MenuIcon class="w-6 h-6" aria-hidden="true" />
             </PopoverButton>
           </div>
         </div>
         <div
-          class="hidden items-center justify-center gap-x-3 whitespace-nowrap lg:flex xl:gap-x-6"
+          class="items-center justify-center hidden gap-x-3 whitespace-nowrap lg:flex xl:gap-x-6"
         >
           <a
             v-for="item in navigation.slice(0, navigation.length - 1)"
@@ -70,34 +70,34 @@
       <div class="bg-gray-500">
         <PopoverPanel
           focus
-          class="absolute inset-x-0 top-0 z-20 origin-top-right transform p-2 transition lg:hidden"
+          class="absolute inset-x-0 top-0 z-20 p-2 transition origin-top-right transform lg:hidden"
         >
           <div
-            class="overflow-hidden rounded-lg bg-gray-500 shadow-md ring-1 ring-gray-900 ring-opacity-5"
+            class="overflow-hidden bg-gray-500 rounded-lg shadow-md ring-1 ring-gray-900 ring-opacity-5"
           >
             <div class="flex items-center justify-between px-5 pt-4">
               <div>
                 <img
-                  class="h-12 w-auto"
+                  class="w-auto h-12"
                   src="/images/logoHorizontal.png"
                   alt=""
                 />
               </div>
               <div class="-mr-2">
                 <PopoverButton
-                  class="inline-flex items-center justify-center rounded-md p-2 text-white bg-gray-600 transition-all duration-200 hover:text-primary-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+                  class="inline-flex items-center justify-center p-2 text-white transition-all duration-200 bg-gray-600 rounded-md hover:text-primary-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
                 >
                   <span class="sr-only">Fechar menu principal</span>
-                  <XIcon class="h-6 w-6" aria-hidden="true" />
+                  <XIcon class="w-6 h-6" aria-hidden="true" />
                 </PopoverButton>
               </div>
             </div>
-            <div class="space-y-1 px-2 pt-2 pb-3">
+            <div class="px-2 pt-2 pb-3 space-y-1">
               <a
                 v-for="item in navigation.slice(0, navigation.length - 1)"
                 :key="item.name"
                 :href="item.href"
-                class="block rounded-md px-3 py-2 text-base font-medium text-white transition-all hover:text-primary-500"
+                class="block px-3 py-2 text-base font-medium text-white transition-all rounded-md hover:text-primary-500"
                 >{{ item.name }}</a
               >
             </div>

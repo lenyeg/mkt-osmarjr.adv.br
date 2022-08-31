@@ -4,53 +4,53 @@ import ToggleMenu from "./vue/ToggleMenu.vue";
 ---
 
 <div class="bg-gray-500">
-  <div class="pt-6 pb-24 md:pb-16 container mx-auto">
+  <div class="container pt-6 pb-24 mx-auto md:pb-16">
     <ToggleMenu client:only="vue" />
     <section
-      class="flex flex-col justify-between px-4 lg:flex-row mt-24 lg:px-0 lg:mt-16"
+      class="flex flex-col justify-between px-4 mt-24 lg:flex-row lg:px-0 lg:mt-16"
     >
       <div
-        class="text-center lg:text-left flex flex-col justify-center items-center gap-4 lg:items-start lg:gap-1"
+        class="flex flex-col items-center justify-center gap-4 text-center lg:text-left lg:items-start lg:gap-1"
       >
         <h1
-          class="tracking-tight font-extrabold text-white text-5xl md:text-6xl"
+          class="text-5xl font-extrabold tracking-tight text-white md:text-6xl"
           style="font-family: 'Playfair Display', serif;"
         >
           <span class="block lg:inline">Osmar Júnior</span>
           <span class="block lg:inline"> Advogado</span>
         </h1>
         <span
-          class="mt-3 max-w-md mx-auto text-gray-100 font-medium text-lg md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:mx-0"
+          class="max-w-md mx-auto mt-3 text-lg font-medium text-gray-100 md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:mx-0"
         >
           OAB/PR 103.959
         </span>
         <p
-          class="mt-3 max-w-md mx-auto text-gray-100 text-lg md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:w-2/3 lg:mx-0"
+          class="max-w-md mx-auto mt-3 text-lg text-gray-100 md:mt-5 md:text-xl md:max-w-3xl lg:text-base lg:w-2/3 lg:mx-0"
         >
           Formado na UNICESUMAR em 2019, pós-graduado em Docência no Ensino
           Superior pela FCV e pós-graduado em Prática Penal Avançada pela
           Damásio.
         </p>
         <div
-          class="mt-5 max-w-md mx-auto flex flex-col justify-center md:mt-8 lg:mx-0"
+          class="flex flex-col justify-center max-w-md mx-auto mt-5 md:mt-8 lg:mx-0"
         >
           <div>
             <a
               href="https://wa.me/5544991245630?text=ol%C3%A1,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20ser%20atendido"
               target="_blank"
-              class="group m-auto flex items-center justify-center gap-2 p-1 pl-4 border border-transparent text-base font-medium rounded-full shadow duration-300 text-gray-500 bg-white hover:bg-primary-500 md:w-full"
+              class="flex items-center justify-center gap-2 p-1 pl-4 m-auto text-base font-medium text-gray-500 duration-300 bg-white border border-transparent rounded-full shadow group hover:bg-primary-500 md:w-full"
             >
               Contate-me agora!
               <Icon
                 name="whatsapp-rounded"
-                class="h-8 w-8 text-gray-50 duration-300 group-hover:text-primary-600"
+                class="w-8 h-8 duration-300 text-gray-50 group-hover:text-primary-600"
               />
             </a>
           </div>
         </div>
       </div>
-      <div class="flex justify-center items-center">
-        <img src="osmar.png" class="my-10" alt="Osmar Júnior" />
+      <div class="flex items-center justify-center">
+        <img src="/images/osmar.png" class="my-10" alt="Osmar Júnior" />
       </div>
     </section>
   </div>

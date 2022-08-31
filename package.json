@@ -9,6 +9,9 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "lint-staged": {
     "*.{astro,md,js,vue,ts}": [
       "prettier --write"
