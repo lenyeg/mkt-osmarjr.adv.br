@@ -4,7 +4,6 @@
       <nav class="relative flex items-center justify-between gap-6 sm:h-10" aria-label="Global">
         <div class="flex items-center justify-between flex-1 w-full h-12 lg:w-auto lg:h-14 lg:flex-none">
           <a href="/">
-            <span class="sr-only">Osmar Júnior - Advogado</span>
             <img class="w-auto h-12 lg:h-14" src="/images/logo-horizontal.svg" width="180" height="56"
               alt="Osmar Júnior - Advogado" />
           </a>
