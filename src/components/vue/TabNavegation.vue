@@ -31,11 +31,8 @@
                   <summary class="group font-medium text-gray-900 h-7 flex items-center gap-2">
                     <span class="cursor-pointer flex items-center gap-2">
                       Delegacia de Polícia - M. Público
-                      <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                      </svg>
+                      <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                        class="-rotate-90 group-open:rotate-0 transform" />
                     </span>
                   </summary>
                   <!--
@@ -94,11 +91,8 @@
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2">
                     <span class="cursor-pointer flex items-center gap-2">
                       Processo Penal
-                      <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                      </svg>
+                      <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                        class="-rotate-90 group-open:rotate-0 transform" />
                     </span>
                   </summary>
                   <!--
@@ -144,11 +138,8 @@
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2">
                     <span class="cursor-pointer flex items-center gap-2">
                       Fase Recursal
-                      <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                      </svg>
+                      <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                        class="-rotate-90 group-open:rotate-0 transform" />
                     </span>
                   </summary>
                   <!--
@@ -190,11 +181,8 @@
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2">
                     <span class="cursor-pointer flex items-center gap-2">
                       Execução Penal
-                      <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                      </svg>
+                      <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                        class="-rotate-90 group-open:rotate-0 transform" />
                     </span>
                   </summary>
                   <!--
@@ -249,11 +237,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Áreas Específicas
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -373,11 +358,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Pensão Alimentícia
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -407,11 +389,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Divórcio
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -443,11 +422,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Guarda e Regulamentação de Visita
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -475,11 +451,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Casamento
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -523,11 +496,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     União Estável e Investigação de Paternidade
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -557,11 +527,8 @@
                   <!-- Expand/collapse question button -->
                   <summary class="font-medium text-gray-900 h-7 flex items-center gap-2 cursor-pointer">
                     Inventário
-                    <svg class="-rotate-90 group-open:rotate-0 duration-150 h-6 w-6 transform"
-                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <BaseIcon icon="arrow-down" title="arrow-down" size="lg"
+                      class="-rotate-90 group-open:rotate-0 transform" />
                   </summary>
                   <!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -601,11 +568,13 @@
 </template>
 
 <script lang="ts">
+import BaseIcon from './BaseIcon.vue'
 import { defineComponent } from "vue";
 export default defineComponent({
   data: () => ({
     activedTab: "criminal",
   }),
+  components: { BaseIcon },
   methods: {
     makeActive(tab) {
       this.activedTab = tab;
