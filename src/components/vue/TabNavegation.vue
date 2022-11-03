@@ -43,51 +43,44 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Acompanhamento de flagrantes e mandados de busca e
                       apreensão;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Acompanhamentos em oitivas;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Defesa/investigação preliminar;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Oferecimento de Notitia Criminis;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Pedido de Instauração de Inquérito Policial;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Registro de Ocorrência Policial;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Medidas Protetivas de Urgência – Lei Maria da Penha;
                     </p>
@@ -110,36 +103,31 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Audiência de instrução e julgamento;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Resposta à Acusação;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Defesas Processuais;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Impetração de Mandado de Segurança e Habeas Corpus;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Pedido de revogação de prisão preventiva;
                     </p>
@@ -162,32 +150,27 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Agravos;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Recurso em Sentido Estrito;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Apelação;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Recurso Especial e Extraordinário;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Sustentação Oral;
                     </p>
@@ -210,49 +193,41 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Saída Temporária;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Progressão de Regime;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Prisão Domiciliar;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Remição;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Detração;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Indulto;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Comutação;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Livramento Condicional;
                     </p>
@@ -273,113 +248,97 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes de Lavagem de Capitais;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes Empresariais/Corporativos;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra a Ordem Econômica e Tributária;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes de Sonegação Fiscal;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra as Relações de Consumo;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes de Responsabilidade de Agentes Públicos;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Direito Penal Médico;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra a Administração da Justiça;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra o Patrimônio;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra a Organização do Trabalho;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra a Vida (Tribunal do Júri);
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes de Estelionato;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes contra a Honra;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes Ambientais;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Crimes de trânsito;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Ações Penais Originárias;
                     </p>
@@ -410,23 +369,19 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Fixação;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Revisão;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Execução;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Exoneração;</p>
                   </dd>
                 </details>
@@ -445,23 +400,19 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Litigioso;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Consensual;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Extrajudicial (Cartório);
                     </p>
@@ -482,20 +433,17 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Unilateral;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Compartilhada;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Alternada;</p>
                   </dd>
                 </details>
@@ -514,36 +462,31 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Regime de Bens;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Aspectos Patrimoniais;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Direitos e Deveres dos Cônjuges;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Acordo Pré-nupcial;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Anulação de Casamento;
                     </p>
@@ -564,20 +507,17 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Reconhecimento;
                     </p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Dissolução;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Investigação da Identidade Biológica;
                     </p>
@@ -598,13 +538,11 @@
                   Open: "-rotate-180", Closed: "rotate-0"
                 -->
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">Judicial;</p>
                   </dd>
                   <dd class="mt-6 pr-12 flex gap-2 items-center">
-                    <img src="/images/check-shild.svg" alt="check shild icon" width="18" height="18"
-                      class="w-[18px] h-[18px]" />
+                    <BaseIcon icon="check-shild" title="check-shild" size="lg" />
                     <p class="text-base text-gray-500 w-11/12">
                       Extrajudicial;
                     </p>
